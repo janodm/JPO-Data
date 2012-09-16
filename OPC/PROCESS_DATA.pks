@@ -18,7 +18,7 @@ IS
    
   Procedure LoadOPCData(p_commit_freq_ IN INTEGER DEFAULT 1000, p_no_of_days_back in integer default 1, p_no_days_offset in integer default 1);
    
---v_ar||substr(lpad(tambour_rec.BLOCKNR,5,0),1,2)||lpad(substr(tambour_rec.BLOCKNR,-3),5,0)
+
 END PROCESS_DATA;
 /
 
